@@ -15,4 +15,4 @@ class TestProductsForms(TestCase):
             'query': '',
         })
         self.assertFalse(form.is_valid())
-        self.assertEqual(form.errors['query'], ['This field is required.'])   
+        self.assertEqual(form.errors['query'], ['This field is required.'])

@@ -3,14 +3,15 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError
 
+
 class UserLoginForm(forms.Form):
     """
     Used by the user to enter login credentials
     """
     username = forms.CharField()
     password = forms.CharField(widget=forms.PasswordInput)
- 
-   
+
+
 class UserRegistrationForm(UserCreationForm):
     """
     Used by the user to sign up with the website
