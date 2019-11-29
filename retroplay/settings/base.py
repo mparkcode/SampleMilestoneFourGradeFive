@@ -34,7 +34,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mpark-django-retroplay.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['samplemilestonefour-gradefive.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
